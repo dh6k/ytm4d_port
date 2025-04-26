@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "m.youtube.com",
+          "queryTransform": {
+            "removeParams": ["app"]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "www.youtube.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://m.youtube.com/watch?v=\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "https://.*\\.youtube\\.com/shorts/(.*)",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

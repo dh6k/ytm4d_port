@@ -1,0 +1,326 @@
+body
+{
+	overflow-y: scroll !important;
+}
+ytm-app
+{
+	padding-bottom: 0 !important;
+}
+
+#header-bar:not(.topbar-transparent-background) header,
+#header-bar.filled header
+{
+	box-shadow: inset 0 -1px rgba(50%, 50%, 50%, 0.5) !important;
+}
+#header-bar, ytm-pivot-bar-renderer
+{
+	top: 0 !important;
+	z-index: 5 !important;
+}
+header:not([data-mode="searching"])
+{
+	background-color: unset !important;
+}
+header[data-mode="watch"] #home-icon,
+header[data-mode="watch"] .mobile-topbar-header-content,
+.mobile-topbar-header-sign-in-button button, .mobile-topbar-header-sign-in-button a
+{
+	color: currentColor !important;
+}
+
+.mobile-topbar-header-content.non-search-mode
+{
+	margin-left: calc(48px * 3 + 12px) !important;
+}
+ytm-pivot-bar-renderer
+{
+	height: 47px !important;
+	width: calc(48px * 3) !important;
+	left: 43px !important;
+	padding-left: 10px !important;
+	justify-content: start !important;
+	border-top-width: 0 !important;
+	background-color: transparent !important;
+	backdrop-filter: none !important;
+}
+#header-bar.topbar-transparent-background + ytm-pivot-bar-renderer, .mobile-topbar-header-background
+{
+	background-color: transparent !important;
+}
+#header-bar.topbar-transparent-background:not(.filled) + ytm-pivot-bar-renderer c3-icon
+{
+	color: white !important;
+}
+ytm-pivot-bar-renderer[aria-hidden="true"]
+{
+	display: none !important;
+}
+ytm-pivot-bar-item-renderer
+{
+	flex: none !important;
+}
+.pivot-bar-item-tab
+{
+	padding: 12px !important;
+}
+.pivot-bar-item-title, ytm-pivot-bar-item-renderer:first-child
+{
+	display: none !important;
+}
+
+#player-container-id
+{
+	position: absolute !important;
+}
+.ytp-autohide
+{
+	cursor: auto !important;
+}
+#player-container-id:hover .player-controls-top
+{
+	visibility: visible !important;
+}
+#player-control-container:not(.ended-mode) #player-control-overlay,
+#player-control-container:not(.ended-mode) .player-controls-content,
+#player-control-container.ended-mode .player-controls-top
+{
+	visibility: hidden !important;
+}
+.player-controls-top
+{
+	background-color: rgba(0,0,0,0.6) !important;
+	width: auto !important;
+}
+.player-settings-icon
+{
+	padding: 3px !important;
+}
+.player-settings-icon > c3-icon
+{
+	width: 38px !important;
+	height: 38px !important;
+}
+.player-controls-bottom, .player-controls-pb,
+#player-control-container:not(.ended-mode) .player-controls-middle,
+#player-control-container:not(.ended-mode) .player-controls-background-container,
+#movie_player.unstarted-mode .ytp-caption-window-container,
+.player-controls-double-tap-to-seek-content,
+.watch-page-progress-bar
+{
+	display: none !important;
+}
+#player-container-id:hover .ytp-caption-window-container
+{
+	top: -40px !important;
+}
+#movie_player.playing-mode:not(.unstarted-mode) .html5-video-container,
+#movie_player.paused-mode:not(.unstarted-mode) .html5-video-container
+{
+	width: 100% !important;
+	height: 100% !important;
+}
+#movie_player.playing-mode:not(.unstarted-mode) .html5-main-video,
+#movie_player.paused-mode:not(.unstarted-mode) .html5-main-video
+{
+	width: 100% !important;
+	height: 100% !important;
+	left: 0 !important;
+	top: 0 !important;
+	object-fit: contain !important;
+}
+.unstarted-mode .ytp-cued-thumbnail-overlay:not([aria-hidden="true"])
+{
+	cursor: pointer !important;
+}
+.yt-core-image.video-thumbnail-img
+{
+	visibility: visible !important;
+}
+
+ytm-watch
+{
+	display: flex !important;
+	flex-flow: column !important;
+}
+.player-placeholder
+{
+	padding-bottom: 0 !important;
+}
+.player-placeholder::before
+{
+	content: "" !important;
+	display: block !important;
+	padding-bottom: 56.25% !important;
+}
+@media (min-width:931px) and (orientation:landscape)
+{
+	ytm-engagement-panel
+	{
+		position: static !important;
+		display: block !important;
+		width: auto !important;
+		margin-right: 256px !important;
+	}
+	ytm-engagement-panel:not(:last-of-type)
+	{
+		display: none !important;
+	}
+	ytm-engagement-panel-section-list-renderer,
+	.engagement-panel-section-list-background,
+	.engagement-panel-container
+	{
+		background-color: transparent !important;
+	}
+	.engagement-panel-content-wrapper
+	{
+		min-height: 100px !important;
+	}
+}
+@media (min-width:1280px) and (orientation:landscape)
+{
+	ytm-engagement-panel
+	{
+		margin-right: 500px !important;
+	}
+}
+ytm-section-list-renderer, ytm-structured-description-content-renderer
+{
+	overflow-y: auto !important;
+}
+ytm-video-description-header-renderer .primary-info > .title,
+ytm-video-description-header-renderer .primary-info > .cbox,
+.engagement-panel-drag-line
+{
+	display: none !important;
+}
+.engagement-panel-section-list-header-wrapper
+{
+	padding-top: 0 !important;
+}
+.comment-text
+{
+	user-select: text !important;
+}
+
+.single-column-browse-results-tab-bar
+{
+	box-shadow: inset 0 -1px rgba(50%, 50%, 50%, 0.5) !important;
+	border-bottom-width: 0 !important;
+}
+.single-column-browse-results-tabs
+{
+	padding: 0 !important;
+}
+select.select
+{
+	padding: 8px 24px 8px 0 !important;
+}
+.select-icon
+{
+	height: 32px !important;
+}
+
+.scrollable-tab-header-container
+{
+	box-shadow: inset 0 -1px rgba(50%, 50%, 50%, 0.5) !important;
+	overflow: auto !important;
+	margin-bottom: 12px !important;
+}
+.scrollable-tab[aria-selected="true"], .single-column-browse-results-tab[aria-selected="true"]
+{
+	border-bottom-color: red !important;
+}
+.scrollable-tab, ytm-pivot-bar-item-renderer, .ytm-sort-filter-sub-menu-item
+{
+	cursor: pointer !important;
+}
+.horizontal-card-list-cards
+{
+	overflow-x: auto !important;
+}
+
+yt-tab-group-shape
+{
+	width: 100% !important;
+}
+yt-tab-shape
+{
+	flex: auto !important;
+	margin-right: 0 !important;
+}
+yt-tab-shape[aria-selected="true"]
+{
+	box-shadow: inset 0 -2px red !important;
+}
+.yt-tab-group-shape-wiz__slider, .yt-tab-shape-wiz__tab-bar
+{
+	display: none !important;
+}
+
+ytm-shelf-renderer.vertical-shelf-separators
+{
+	border-top-width: 0 !important;
+}
+ytm-item-section-renderer,
+ytm-shelf-renderer,
+ytm-compact-channel-renderer,
+ytm-comments-header-renderer,
+.engagement-panel-section-list-header
+{
+	border-color: rgba(50%, 50%, 50%, 0.5) !important;
+}
+
+ytm-sign-in-promo-with-background-renderer ytm-promo
+{
+	min-height: calc(100vh - 48px) !important;
+}
+
+ytm-promoted-sparkles-text-search-renderer,
+ytm-promoted-sparkles-web-renderer,
+ytm-promoted-video-renderer,
+ytm-watch-metadata-app-promo-renderer,
+ytm-companion-ad-renderer,
+ytm-clarification-renderer,
+.interactive-tabbed-header-banner-overlay,
+.ytp-paid-content-overlay,
+.mealbar-promo-renderer,
+ytm-info-panel-container-renderer,
+ytm-reel-shelf-renderer,
+.pivot-shorts
+{
+	display: none !important;
+}
+ytm-item-section-renderer:has(ytm-reel-shelf-renderer:only-child)
+{
+	display: none !important;
+}
+
+/* CSS để ẩn chữ "YouTube" bên phải logo */
+#youtube-paths_yt5,
+svg[id*="yt-ringo"] #youtube-paths,
+svg[id*="yt-ringo"] g[id*="youtube-paths"] {
+  display: none !important;
+}
+
+/* Điều chỉnh kích thước container logo để chỉ hiển thị biểu tượng */
+ytd-topbar-logo-renderer #logo,
+a#logo {
+  width: 40px !important;
+  overflow: hidden !important;
+}
+
+/* Đảm bảo biểu tượng YouTube vẫn hiển thị đúng */
+ytd-logo #logo-icon svg g:first-child {
+  display: block !important;
+}
+
+/* Điều chỉnh padding và margin để logo căn giữa */
+ytd-topbar-logo-renderer {
+  padding-right: 0 !important;
+}
+
+/* Xử lý trường hợp logo trong mobile view */
+.mobile-topbar-header-content .mobile-topbar-logo {
+  width: 40px !important;
+  overflow: hidden !important;
+}
