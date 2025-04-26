@@ -23,11 +23,11 @@ Vì cái này chỉ dùng cho mục đích cá nhân là chính, nên t cũng ko
 
 ## 🚀 Cài Đặt Nhanh
 
-1. **Tải file** `ytm4d.crx` (Chrome) hoặc `.zip` (Firefox) từ repo.
+1. **Tải file** `ytm4d.crx` (Releases) hoặc `.zip` ở chỗ **Code** (Nếu muốn load unpacked) từ repo.
 2. Chạy file `twp+vorapis+ytm4d-registry-install.reg` nếu đang dùng chrome gốc, edge, brave, hay vivaldi (và muốn sideload file crx).
 3. Mở Chrome hay chromium-based browser → vào `chrome://extensions/`, bật **Developer mode**.
 4. Kéo thả `ytm4d.crx` vào trang, bấm **Add extension**.
-5. Hoặc dùng **Load unpacked** và chọn thư mục extension (ytm4d).
+5. Nếu dùng **Load unpacked** thì nhớ chọn thư mục extension trong file zip đã giải nén (ytm4d).
 6. Reload YouTube để bắt đầu trải nghiệm giao diện mobile trên desktop!
 
 ---
