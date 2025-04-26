@@ -44,7 +44,7 @@ chrome.runtime.onInstalled.addListener(() => {
         requestHeaders: [{
           header: "User-Agent",
           operation: "set",
-          value: "Android 12"
+          value: "Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.95 Mobile Safari/537.36"
         }]
       },
       condition: {
