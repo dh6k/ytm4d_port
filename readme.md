@@ -14,6 +14,13 @@ YT Mobile Desktop (hay YTM4D) là bản port Chrome của extension YouTube Mobi
 - Loại bỏ YouTube Shorts (1 phần thôi)
 ---
 
+## ⁉ Lưu ý quan trọng
+
+Tiện ích này được port từ tiện ích gốc bên Firefox, nên t không đảm bảo là mọi tính năng sẽ chạy được êm ru. Khả năng xảy ra lỗi tất nhiên là vẫn có, nhưng t với manus đã cố gắng giảm thiểu hết mức có thể rồi.
+Vì cái này chỉ dùng cho mục đích cá nhân là chính, nên t cũng ko khuyến khích ném đi khắp nơi (khéo t lại bị gạch đá thì thôi :(( )
+
+---
+
 ## 🚀 Cài Đặt Nhanh
 
 1. **Tải file** `ytm4d.crx` (Chrome) hoặc `.zip` (Firefox) từ repo.
