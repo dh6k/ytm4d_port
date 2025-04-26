@@ -11,7 +11,7 @@ YT Mobile Desktop (hay YTM4D) là bản port Chrome của extension YouTube Mobi
 - Điều khiển media như trên app YouTube Mobile
 - Auto-hide sidebar, responsive layout linh hoạt
 - Dark/Light theme đồng bộ giao diện
-- Loại bỏ YouTube Shorts (1 phần thôi)
+- Chuyển trình phát video YouTube Shorts sang trình phát video thường (đoạn này có thể bug)
 ---
 
 ## ⁉ Lưu ý quan trọng
