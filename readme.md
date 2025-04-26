@@ -62,7 +62,7 @@ Bản Chrome cũng phát hành theo MIT License.
 
 ## 👨‍💻 Đội Ngũ Phát Triển
 - **dh6k ft. Manus** – No one port this from firefox, so I do it myself (with some help from Manus)
-- **Bill** - author bản Firefox gốc
+- **[Bill](https://addons.mozilla.org/en-US/firefox/user/14604079/)** - author [bản Firefox gốc](https://addons.mozilla.org/en-US/firefox/addon/youtube-mobile-for-desktop/)
 
 Liên hệ: duya-sensei@dh6k.vip
 
