@@ -7,7 +7,8 @@
 ## 🔥 Giới Thiệu
 YT Mobile Desktop (hay YTM4D) là bản port Chrome của extension YouTube Mobile for Desktop, được tôi và Manus chung tay phát triển từ mã nguồn gốc trên Firefox. Mục tiêu: mang giao diện, chức năng mobile mượt mà lên trình duyệt desktop, giúp bạn:
 
-- Xem video YouTube với giao diện mobile trên desktop
+- Xem video YouTube với giao diện mobile trên desktop.
+- Xoá chữ "YouTube" ở mọi nơi trong giao diện (1 phần vì nó liền mạch, 1 phần vì t ghét flex premium)
 - Điều khiển media như trên app YouTube Mobile
 - Auto-hide sidebar, responsive layout linh hoạt
 - Dark/Light theme đồng bộ giao diện
