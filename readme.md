@@ -35,6 +35,7 @@ Vì cái này chỉ dùng cho mục đích cá nhân là chính, nên t cũng ko
 ## 🤖 Hướng Dẫn Sử Dụng
 
 Chỉ có nút icon thôi, cái này port cho nên t cũng ko chịu trách nhiệm nếu nó lỗi.
+Vả lại tác giả gốc có vẻ như là sẽ ko maintain trong tương lai nữa, nên cũng khó nói nếu như lỗi lớn phát sinh.
 
 ---
 
