@@ -35,7 +35,7 @@ Chỉ có nút icon thôi, cái này port cho nên t cũng ko chịu trách nhi�
 
 Chào đón issue, PR từ cộng đồng:
 
-1. Fork repo: `https://github.com/YourUsername/ytm4d`
+1. Fork repo: `https://github.com/dh6k/ytm4d_port`
 2. Tạo branch: `git checkout -b feature/<tên_tính_năng>`
 3. Commit & Push.
 4. Tạo Pull Request, cùng thảo luận nhé!
