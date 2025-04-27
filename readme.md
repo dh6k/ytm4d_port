@@ -42,6 +42,15 @@ Vả lại tác giả gốc có vẻ như là sẽ ko maintain trong tương lai
 
 ---
 
+## 🖼 Ảnh demo
+* Trang chủ
+  ![trang chủ](https://raw.githubusercontent.com/dh6k/ytm4d_port/refs/heads/main/image/1.png)
+* Trang xem video
+  ![trang xem video](https://raw.githubusercontent.com/dh6k/ytm4d_port/refs/heads/main/image/2.png)
+* Trang tìm kiếm
+  ![tìm kiếm](https://raw.githubusercontent.com/dh6k/ytm4d_port/refs/heads/main/image/3.png)
+* Trang kênh
+  ![trang kênh](https://raw.githubusercontent.com/dh6k/ytm4d_port/refs/heads/main/image/4.png)
 ## ❤️ Góp Ý & Phát Triển
 
 Chào đón issue, PR từ cộng đồng:
